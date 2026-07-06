@@ -1,0 +1,16 @@
+# Ignore raw data files (CSV, Excel, JSON) so they don't bloat GitHub
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.rar
+
+# Ignore large Power BI backup or temp files
+*.tmp
+*.pbix.backups
+
+# Ignore local Python environment or Jupyter notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+venv/
+.env
